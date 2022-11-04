@@ -1,0 +1,46 @@
+.header {
+      padding-top: 48px;
+      background-color: #EBD7D7;
+
+   &__main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    &__logo {
+        text-decoration: none;
+        display: inline-flex;
+        font-size: 25px;
+        font-weight: bold;
+        gap: 10px;
+      
+        
+        img {
+            width: 62px;
+            height: 76px;
+            align-self: center;
+        }
+
+        h1 {
+            color: black;
+        }
+
+    }
+
+ 
+
+
+    &__menu {
+        color: blue;
+        font-size: 25px;
+        font-weight: bold;
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding-left: 20px;
+        }
+    }
+}

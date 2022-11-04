@@ -1,0 +1,58 @@
+.welcome {
+    min-height: 808px;
+    border: 1px solid green;
+    background-color: #EBD7D7;
+
+    &__main {
+        max-width: 70%;
+        min-height: 700px;
+        border: 1px solid red;
+        margin: 53px 300px;
+        display: flex;
+    }
+
+    &__section{
+        flex-grow: 1;
+        border: 1px solid yellow;
+        max-width: 50%;
+    }
+
+    &__text {
+        //webkit-box-align: center;
+        text-align: center;
+        padding-top: 247px;
+    }
+
+    &__button {
+        font-size: 50px;
+        background: linear-gradient(to right, #ECD7D7, #DC7979);
+        color: green;
+        width: 300px;
+        margin-left: 180px;
+        margin-top: 10px;
+
+    //    &:hover {
+    //         transform: scale(1.5);
+    //    }
+    }
+
+    &__cat_img {
+        flex-grow: 1;
+        border: 1px solid purple;
+        // background-image: url('/images/chinese_cat.png');
+        background-size: cover;
+        max-width: 50%;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__kot {
+        width: 93%;
+        height: 91%;
+        margin-top: 47px;
+    }
+
+}
+
+

@@ -1,0 +1,110 @@
+.love {
+    min-height: 960px;
+    border: 1px solid green;
+   background-color: #EBD7D7;
+
+    &__main {
+        max-width: 80%;
+        min-height: 870px;
+        border: 1px solid blue;
+        margin: auto;
+        margin-top: 46px;
+        position: relative;
+    }
+
+    &__radius {
+        min-width: 100%;
+        min-height: 330px;
+        border-radius: 100% 100%;
+        margin-top: -158px;
+        background: linear-gradient(to bottom, rgba(207, 160, 160, 0.6), #cfa0a0);
+        position: absolute;
+    }
+
+
+    &__text {
+        
+        
+        h1  {
+            margin-top: 41px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            align-content: stretch;
+        }
+        
+        span {
+            font-size: 50px;
+        }
+    }
+
+    &__middle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        width: 80%;
+        height: 670px;
+        border: 1px solid red;
+        margin: auto;
+        display:flex
+    }    
+
+    &__image {
+        border: 1px solid yellow;
+        width: 50%;
+        height: 80%;
+    }
+
+    &__kot {
+        width: 79%;
+        height: 83%;
+        margin: 44px;
+        margin-left: 48px;
+    }
+
+    &__rules {
+        border: 1px solid pink;
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 21px;
+            white-space: pre-line;
+            text-align: center;
+            color: red;
+            line-height: 30px;
+            font-weight: 600;
+        }
+    }
+
+    &__button {
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        height: 80px;
+        font-size: 50px;
+        background: -webkit-gradient(linear, left top, right top, from(#ECD7D7), to(#DC7979));
+        background: linear-gradient(to right, #ECD7D7, #DC7979);
+        color: green;
+        width: 300px;
+        margin: auto;
+
+        h3 {
+            font-size: 33px;
+        }
+
+    }
+}
