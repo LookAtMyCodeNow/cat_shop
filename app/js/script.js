@@ -16,6 +16,7 @@ button.addEventListener ('mouseout', function() {
  });
 
  // Slider
+// Czemu showSlides jest tutaj bez let ani var? nie rozumiem
 
  let slideIndex = 1;
 showSlides(slideIndex);
@@ -45,3 +46,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
